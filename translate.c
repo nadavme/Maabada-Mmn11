@@ -4,7 +4,7 @@
 #define BINARY_FACTOR 2
 #define DECIMAL_FACTOR 10
 
-//TODO: Adapt the code to working with arrays. hey hey, its just a test
+//TODO: Adapt the code to working with arrays.
 
 
 /*!
