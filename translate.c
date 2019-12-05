@@ -27,12 +27,19 @@
         decNum = decNum / BINARY_FACTOR;
 //        temp *=  DECIMAL_FACTOR;/* setting the length of the binary number*/
     }
-//    printf("%s", binaryNum);
-    int length = sizeof(binaryNum)/ sizeof(binaryNum[0]);
-    printf("The binary form of %s is: \n", dec_chr);
-    int j;
-    for (j = 0; j < length -1; j--) printf("%d", binaryNum[j]);
- }
+    printf("%s", binaryNum);
+    int length= 0;
+    while(binaryNum[length] != '\0') length +=  1;
+    int j, temp;
+    for (j = 0; j < length/BINARY_FACTOR; j++)
+    {
+        temp = binaryNum[j];
+        binaryNum[j] = binaryNum[length - j -1];
+        binaryNum[length -j- 1] = temp;
+    }
+    printf("The binary form of %s is: \n %s", dec_chr, binaryNum);
+
+}
 
 
 
