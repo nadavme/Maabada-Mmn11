@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Mmn11.dir/translate.c.o"
-  "Mmn11.exe"
   "Mmn11.pdb"
-  "libMmn11.dll.a"
+  "Mmn11"
 )
 
 # Per-language clean rules from dependency scanning.

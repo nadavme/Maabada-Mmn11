@@ -1,3 +1,3 @@
-/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles/Mmn11.dir
-/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/cmake-build-debug/CMakeFiles/Mmn11.dir
+/cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/cmake-build-debug/CMakeFiles/edit_cache.dir

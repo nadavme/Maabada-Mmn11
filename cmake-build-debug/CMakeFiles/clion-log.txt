@@ -1,4 +1,11 @@
-C:\Users\nadav\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/cygwin64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11
+/usr/local/jetbrains/clion/2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11
+-- The C compiler identification is GNU 8.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug
+-- Build files have been written to: /cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/cmake-build-debug
