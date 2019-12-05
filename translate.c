@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define BINARY_FACTOR 2
 #define DECIMAL_FACTOR 10
@@ -15,8 +16,8 @@
  */
  void translate_dec_hex(char dec_chr[])
  {
-    int  decNum = atoi(dec_chr);/* convert char to int.*/
-    char binaryNum[1000] = {'0', '\0'};/* initialization*/
+    int decNum = strtol(dec_chr, NULL, DECIMAL_FACTOR);/* convert char to int.*/
+    char binaryNum[100] = {'0', '\0'};/* initialization*/
     int i = 0;
 //    long long temp =1;
 //    int rem = 1;/* initialization*/
@@ -30,13 +31,16 @@
     printf("%s", binaryNum);
     int length= 0;
     while(binaryNum[length] != '\0') length +=  1;
+    printf("The length is %d\n", length);
     int j, temp;
+    printf("%s\n", binaryNum);
     for (j = 0; j < length/BINARY_FACTOR; j++)
     {
         temp = binaryNum[j];
         binaryNum[j] = binaryNum[length - j -1];
         binaryNum[length -j- 1] = temp;
     }
+    printf("%s\n", binaryNum);
     printf("The binary form of %s is: \n %s", dec_chr, binaryNum);
 
 }
