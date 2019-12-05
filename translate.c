@@ -16,7 +16,7 @@
  */
  void translate_dec_hex(char dec_chr[])
  {
-    int decNum = strtol(dec_chr, NULL, DECIMAL_FACTOR);/* convert char to int.*/
+    unsigned int decNum = strtol(dec_chr, NULL, DECIMAL_FACTOR);/* convert char to int.*/
     char binaryNum[100] = {'0', '\0'};/* initialization*/
     int i = 0;
 //    long long temp =1;
@@ -28,19 +28,19 @@
         decNum = decNum / BINARY_FACTOR;
 //        temp *=  DECIMAL_FACTOR;/* setting the length of the binary number*/
     }
-    printf("%s", binaryNum);
+//    printf("%s", binaryNum);
     int length= 0;
     while(binaryNum[length] != '\0') length +=  1;
-    printf("The length is %d\n", length);
+//    printf("The length is %d\n", length);
     int j, temp;
-    printf("%s\n", binaryNum);
+//    printf("%s\n", binaryNum);
     for (j = 0; j < length/BINARY_FACTOR; j++)
     {
         temp = binaryNum[j];
         binaryNum[j] = binaryNum[length - j -1];
         binaryNum[length -j- 1] = temp;
     }
-    printf("%s\n", binaryNum);
+//    printf("%s\n", binaryNum);
     printf("The binary form of %s is: \n %s", dec_chr, binaryNum);
 
 }
