@@ -14,10 +14,11 @@
  * @return the original number as binary number.
  */
 long translate_dec_hex(char dec_chr[]){
-    long long binaryNum = 0;/* initialization*/
-    long long temp =1;
-    int rem = 1;/* initialization*/
-    long long decNum = atoll(dec_chr);/* convert char to int.*/
+    char binaryNum[1000] = {'0', '\0'};/* initialization*/
+    long decNum = atol(dec_chr);/* convert char to int.*/
+    int i = 0;
+//    long long temp =1;
+//    int rem = 1;/* initialization*/
     while (decNum != 0) {
         rem = decNum%BINARY_FACTOR;
         decNum = decNum / BINARY_FACTOR;
