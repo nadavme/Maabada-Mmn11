@@ -5,7 +5,7 @@
 #define BINARY_FACTOR 2
 #define DECIMAL_FACTOR 10
 
-char binaryNum[100] = {'0', '\0'};/* initialization as global variable*/
+char binaryNum[1000] = {'0', '\0'};/* initialization as global variable*/
 
 /*!
  *The function gets a decimal number as a string and convert ot to int in order to do some
@@ -24,7 +24,8 @@ char binaryNum[100] = {'0', '\0'};/* initialization as global variable*/
     }
     int length= 0;
     while(binaryNum[length] != '\0') length +=  1;/*Getting the length of the resulted binary number*/
-    int j, temp;
+    int j;
+    char temp;
     for (j = 0; j < length/BINARY_FACTOR; j++)/*Reverse it*/
     {
         temp = binaryNum[j];
