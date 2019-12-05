@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/translate.c" "/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles/Mmn11.dir/translate.c.o"
+  "/cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/translate.c" "/cs/usr/nadav.meidan/Downloads/TheOpenUniversity/Maabada--Mmn11/cmake-build-debug/CMakeFiles/Mmn11.dir/translate.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
