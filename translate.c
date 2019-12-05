@@ -4,8 +4,7 @@
 
 #define BINARY_FACTOR 2
 #define DECIMAL_FACTOR 10
-
-//TODO: Adapt the code to working with arrays.
+char binaryNum[100] = {'0', '\0'};/* initialization as global variable*/
 
 
 /*!
@@ -17,32 +16,22 @@
  void translate_dec_hex(char dec_chr[])
  {
     unsigned int decNum = strtol(dec_chr, NULL, DECIMAL_FACTOR);/* convert char to int.*/
-    char binaryNum[100] = {'0', '\0'};/* initialization*/
     int i = 0;
-//    long long temp =1;
-//    int rem = 1;/* initialization*/
     while (decNum != 0)
     {
         binaryNum[i] =  '0' + decNum%BINARY_FACTOR;
         i++;
         decNum = decNum / BINARY_FACTOR;
-//        temp *=  DECIMAL_FACTOR;/* setting the length of the binary number*/
     }
-//    printf("%s", binaryNum);
     int length= 0;
     while(binaryNum[length] != '\0') length +=  1;
-//    printf("The length is %d\n", length);
     int j, temp;
-//    printf("%s\n", binaryNum);
     for (j = 0; j < length/BINARY_FACTOR; j++)
     {
         temp = binaryNum[j];
         binaryNum[j] = binaryNum[length - j -1];
         binaryNum[length -j- 1] = temp;
     }
-//    printf("%s\n", binaryNum);
-    printf("The binary form of %s is: \n %s", dec_chr, binaryNum);
-
 }
 
 
@@ -55,7 +44,7 @@ int main() {
     char decChr[100] ={0} ;/* The user can type an integer of up to 100 digits.*/
     printf("Please enter a decimal number: ");
     scanf("%s", decChr);/* Getting the input from user.*/
-    translate_dec_hex(decChr);
-//    printf("%llu", binaryNumber);
+    translate_dec_hex(decChr);/* Converting the number to binary form*/
+    printf("The binary form of %s is: \n %s", decChr, binaryNum);
     return 0;
 }
