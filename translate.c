@@ -4,6 +4,8 @@
 
 #define BINARY_FACTOR 2
 #define DECIMAL_FACTOR 10
+#define ZERO_CHAR '0'
+#define NULL_TERMINATED_STRING '\0'
 
 char binaryNum[1000] = {'0', '\0'};/* initialization as global variable*/
 
@@ -20,12 +22,12 @@ char binaryNum[1000] = {'0', '\0'};/* initialization as global variable*/
     i = 0;
     while (decNum != 0)/*Calculating- collecting the remains of the divide, each iteration*/
     {
-        binaryNum[i] =  '0' + decNum % BINARY_FACTOR;
+        binaryNum[i] =  ZERO_CHAR + decNum % BINARY_FACTOR;
         i++;
         decNum = decNum / BINARY_FACTOR;
     }
     length = 0;
-    while(binaryNum[length] != '\0') length +=  1;/*Getting the length of the resulted binary number*/
+    while(binaryNum[length] != NULL_TERMINATED_STRING) length +=  1;/*Getting the length of the resulted binary number*/
     for (j = 0; j < length/BINARY_FACTOR; j++)/*Reverse it*/
     {
         temp = binaryNum[j];

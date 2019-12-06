@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Mmn11.dir/translate.c.o  -o Mmn11 
+C:/cygwin64/bin/gcc.exe -g  -Wl,--enable-auto-import CMakeFiles/Mmn11.dir/translate.c.o  -o Mmn11.exe -Wl,--out-implib,libMmn11.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
