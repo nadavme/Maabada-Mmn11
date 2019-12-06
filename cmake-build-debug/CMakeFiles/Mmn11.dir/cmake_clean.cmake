@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Mmn11.dir/translate.c.o"
+  "CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o"
   "Mmn11.exe"
   "Mmn11.pdb"
   "libMmn11.dll.a"

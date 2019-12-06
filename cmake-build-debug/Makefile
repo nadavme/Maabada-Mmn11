@@ -123,32 +123,32 @@ Mmn11/fast:
 	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/build
 .PHONY : Mmn11/fast
 
-translate.o: translate.c.o
+Question_1-_Translate/translate.o: Question_1-_Translate/translate.c.o
 
-.PHONY : translate.o
+.PHONY : Question_1-_Translate/translate.o
 
 # target to build an object file
-translate.c.o:
-	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/translate.c.o
-.PHONY : translate.c.o
+Question_1-_Translate/translate.c.o:
+	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o
+.PHONY : Question_1-_Translate/translate.c.o
 
-translate.i: translate.c.i
+Question_1-_Translate/translate.i: Question_1-_Translate/translate.c.i
 
-.PHONY : translate.i
+.PHONY : Question_1-_Translate/translate.i
 
 # target to preprocess a source file
-translate.c.i:
-	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/translate.c.i
-.PHONY : translate.c.i
+Question_1-_Translate/translate.c.i:
+	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.i
+.PHONY : Question_1-_Translate/translate.c.i
 
-translate.s: translate.c.s
+Question_1-_Translate/translate.s: Question_1-_Translate/translate.c.s
 
-.PHONY : translate.s
+.PHONY : Question_1-_Translate/translate.s
 
 # target to generate assembly for a file
-translate.c.s:
-	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/translate.c.s
-.PHONY : translate.c.s
+Question_1-_Translate/translate.c.s:
+	$(MAKE) -f CMakeFiles/Mmn11.dir/build.make CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.s
+.PHONY : Question_1-_Translate/translate.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Mmn11"
 	@echo "... edit_cache"
-	@echo "... translate.o"
-	@echo "... translate.i"
-	@echo "... translate.s"
+	@echo "... Question_1-_Translate/translate.o"
+	@echo "... Question_1-_Translate/translate.i"
+	@echo "... Question_1-_Translate/translate.s"
 .PHONY : help
 
 

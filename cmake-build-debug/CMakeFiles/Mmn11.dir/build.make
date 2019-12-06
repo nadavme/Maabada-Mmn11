@@ -57,27 +57,27 @@ include CMakeFiles/Mmn11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Mmn11.dir/flags.make
 
-CMakeFiles/Mmn11.dir/translate.c.o: CMakeFiles/Mmn11.dir/flags.make
-CMakeFiles/Mmn11.dir/translate.c.o: ../translate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mmn11.dir/translate.c.o"
-	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Mmn11.dir/translate.c.o   -c /cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/translate.c
+CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o: CMakeFiles/Mmn11.dir/flags.make
+CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o: ../Question\ 1-\ Translate/translate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o"
+	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o   -c "/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/Question 1- Translate/translate.c"
 
-CMakeFiles/Mmn11.dir/translate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mmn11.dir/translate.c.i"
-	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/translate.c > CMakeFiles/Mmn11.dir/translate.c.i
+CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.i"
+	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/Question 1- Translate/translate.c" > CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.i
 
-CMakeFiles/Mmn11.dir/translate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mmn11.dir/translate.c.s"
-	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/translate.c -o CMakeFiles/Mmn11.dir/translate.c.s
+CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.s"
+	C:/cygwin64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/Question 1- Translate/translate.c" -o CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.s
 
 # Object files for target Mmn11
 Mmn11_OBJECTS = \
-"CMakeFiles/Mmn11.dir/translate.c.o"
+"CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o"
 
 # External object files for target Mmn11
 Mmn11_EXTERNAL_OBJECTS =
 
-Mmn11.exe: CMakeFiles/Mmn11.dir/translate.c.o
+Mmn11.exe: CMakeFiles/Mmn11.dir/Question_1-_Translate/translate.c.o
 Mmn11.exe: CMakeFiles/Mmn11.dir/build.make
 Mmn11.exe: CMakeFiles/Mmn11.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/nadav/OneDrive/Desktop/Mmn11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Mmn11.exe"
