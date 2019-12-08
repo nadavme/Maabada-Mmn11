@@ -1,0 +1,4 @@
+The string that was accepted is: Jerusalem
+
+
+The number of final clauses that contains the char "g" founded in "Jerusalem" is: 0

@@ -1,0 +1,6 @@
+The string that was accepted is: gimangi
+
+gimangi
+gi
+
+The number of final clauses that contains the char "g" founded in "gimangi" is: 2

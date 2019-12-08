@@ -1,0 +1,15 @@
+The string that was accepted is: yosssssssssssi
+
+sssssssssssi
+ssssssssssi
+sssssssssi
+ssssssssi
+sssssssi
+ssssssi
+sssssi
+ssssi
+sssi
+ssi
+si
+
+The number of final clauses that contains the char "s" founded in "yosssssssssssi" is: 11

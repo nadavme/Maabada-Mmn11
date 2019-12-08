@@ -1,0 +1,11 @@
+The string that was accepted is: fglnsdfnbkshsergeiorg.bmfghml mrtklhlkrthlkklbklgbmsbmsdb  gmlkfgbkl hkl gklbklgb jkl;gm sdf    dff;gs; g;dsf gdf d
+
+dfnbkshsergeiorg.bmfghml mrtklhlkrthlkklbklgbmsbmsdb  gmlkfgbkl hkl gklbklgb jkl;gm sdf    dff;gs; g;dsf gdf d
+db  gmlkfgbkl hkl gklbklgb jkl;gm sdf    dff;gs; g;dsf gdf d
+df    dff;gs; g;dsf gdf d
+dff;gs; g;dsf gdf d
+dsf gdf d
+df d
+d
+
+The number of final clauses that contains the char "d" founded in "fglnsdfnbkshsergeiorg.bmfghml mrtklhlkrthlkklbklgbmsbmsdb  gmlkfgbkl hkl gklbklgb jkl;gm sdf    dff;gs; g;dsf gdf d" is: 7

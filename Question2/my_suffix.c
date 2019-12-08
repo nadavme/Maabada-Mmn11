@@ -18,7 +18,7 @@ int suffix(char str[], char c)
         if(str[i] == c)
         {
             counter++;
-            printf("\n%s", str+i);/*prints the substirng containing "c"*/
+            printf("\n%s", str+i);/*prints the substring containing "c"*/
         }
     }
     return counter;
@@ -33,15 +33,21 @@ int suffix(char str[], char c)
 int main()
 {
     char c;
-    printf("\nPlease enter a single char and a string to parse from: \n");
+    char str[MAX_LINE];
+
+    /*according to what Yakir has answered at the forum*/
+    printf("\nPlease enter a single char, a space, and a string to parse from: ");
     c = getchar();/*char input from user*/
     getc(stdin);/*char input from a file*/
-    char str[MAX_LINE];
+
     fgets(str, MAX_LINE ,stdin);/*string input from user/ file*/
+    printf("\nThe string that was accepted is: %s", str);
     if(str[strlen(str)-1] == '\n') str[strlen(str)-1] = NULL_TERMINATED_STRING;/*ensure 'str' doesn't holds '\n.*/
+
     /*The data( char "c" and string "str") is printed first. Then the function is called, and the resulted substring
      * and counter are being printed to the screen.*/
-    printf("\nThe number of final clauses that contains the char \"%c\" founded in \"%s\" is: %d", c, str, suffix(str, c));
+    printf("\n\nThe number of final clauses that contains the char \"%c\" founded in \"%s\" is: %d\n", c, str, suffix
+    (str, c));
 
     return 0;
 }
